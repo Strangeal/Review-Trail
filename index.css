@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+}
+
+.title {
+    padding-left: 40px;
+    border-right: 1px solid black;
+}
+
+.title p{
+    margin: 0px;
+    font-size: 30px;
+}
+@media(max-width: 1102px){
+    .title p{
+        font-size: 20px;
+
+    }
+}
+
+@media(max-width: 800px){
+    .title p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 800px) {
+    .sidebar{
+        padding: 10px;
+    }
+}
+
+nav{
+    height: 100%;
+    width: 21%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+nav a{
+    text-decoration: none;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    display: block;
+    padding: 14px;
+    color: black;
+    padding-left: 40px;
+}
+
+/* Media Query for responsive sidebar*/
+main{
+    margin-left: 22%;
+    padding: 20px;
+}
+
+header {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.main-section p{
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 18px;
+}
+
+
+li {
+    margin-left: 10px;
+}
+
+code {
+    background-color: #f7f7f7;
+    display: block;
+    padding: 20px;
+    margin-left: 3%;
+    border-radius: 5px;
+    margin-top: 10px;
+    line-height: 2;
+}
